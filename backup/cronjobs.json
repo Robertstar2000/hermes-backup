@@ -1,0 +1,26 @@
+{
+  "jobs": [
+    {
+      "id": "ee6697d70cd7",
+      "name": "Teams Webhook Test",
+      "schedule": "once in 1m",
+      "repeat": "once",
+      "enabled": true,
+      "deliver": "local",
+      "created_at": "2026-03-31T09:33:16-04:00",
+      "note": "Test job - can be deleted"
+    },
+    {
+      "id": "27c5730d2a9b",
+      "name": "Daily Teams Status Report",
+      "schedule": "every 1440m (daily)",
+      "repeat": "forever",
+      "enabled": true,
+      "deliver": "local",
+      "created_at": "2026-03-31T09:40:42-04:00",
+      "next_run": "2026-04-01T09:40:42-04:00"
+    }
+  ],
+  "backup_date": "2026-03-31T09:54:33.591015",
+  "note": "Secrets (webhook URLs) excluded from prompt content"
+}
