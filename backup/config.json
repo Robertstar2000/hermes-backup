@@ -1,0 +1,26 @@
+{
+  "hermes_version": "unknown",
+  "backup_date": "2026-03-31T09:54:33.591024",
+  "integrations": {
+    "ms_teams": {
+      "webhook": "CONFIGURED (URL stored in memory, not repo)",
+      "deliveries": [
+        "Daily Status Report"
+      ]
+    },
+    "github": {
+      "user": "Robertstar2000",
+      "repos": [
+        "MCRcore-Growth-Engine",
+        "hermes-backup"
+      ]
+    },
+    "mcrore_growth_engine": {
+      "status": "Setup complete, awaiting startup",
+      "repo": "MCRcore-Growth-Engine"
+    }
+  },
+  "cron_jobs_count": 2,
+  "skills_count": 67,
+  "memory_entries": 2
+}
